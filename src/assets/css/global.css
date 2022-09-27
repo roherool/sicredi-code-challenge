@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+/* START GLOBAL STYLES */
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --bg-body: #f8f9f7;
+
+  --green-300: #64c832;
+  --green-500: #3fa110;
+  --green-600: #33820d;
+  --green-700: #2d6a4f;
+
+  --neutral-300: #d4d4d4;
+  --neutral-500: #737373;
+  --neutral-700: #404040;
+  --neutral-900: #171717;
+}
+
+* {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg-body);
+  color: var(--text-base);
+  font-family: "Exo 2", sans-serif;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+
+  margin: auto;
+  max-width: 85.38rem;
+}
+
+a {
+  color: var(--neutral-900);
+  text-decoration: none;
+}
+
+main {
+  height: calc(100vh - 100px);
+  margin: 0 auto;
+  max-width: 85.38rem;
+  padding: 2.5rem;
+}
+
+/* END GLOBAL STYLES */

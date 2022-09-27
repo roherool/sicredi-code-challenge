@@ -1,0 +1,100 @@
+/* START SECTION PESSOA FÍSICA */
+#pessoa-fisica {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  height: 200px;
+}
+
+#wrapper-fisica-banner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#wrapper-fisica-banner h1 {
+  color: var(--neutral-500);
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+
+#wrapper-fisica-banner h1 span {
+  color: var(--green-500);
+  font-weight: 500;
+  opacity: 75%;
+}
+
+#wrapper-fisica-banner p {
+  color: var(--neutral-500);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-top: 30px;
+}
+
+#wrapper-fisica-image {
+  background: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+}
+
+#wrapper-fisica-image img {
+  height: 100%;
+  width: auto;
+  position: absolute;
+}
+
+#wrapper-fisica-image p {
+  color: var(--white);
+  font-size: 0.875rem;
+  font-weight: bold;
+  position: absolute;
+  left: 40px;
+  top: 450px;
+}
+
+#wrapper-fisica-info {
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+  text-align: right;
+  padding-right: 7rem;
+  width: 100%;
+}
+
+#wrapper-fisica-info span {
+  color: var(--green-500);
+  opacity: 75%;
+  font-family: "Exo 2", sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+#wrapper-fisica-info ul {
+  margin-bottom: 3.75rem;
+}
+
+#wrapper-fisica-info ul li {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+#wrapper-fisica-info ul li a {
+  color: var(--neutral-500);
+  text-decoration: none;
+}
+
+#wrapper-fisica-info ul li a #span-pix {
+  color: var(--neutral-500);
+  background: yellow;
+  border-radius: 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-right: 0.625rem;
+  padding: 0 0.5rem;
+}
+
+/* END SECTION PESSOA FÍSICA */
