@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+  <title>Sicredi</title>
+</head>
+
+<body>
+  <header id="header">
+    <img id="logo" src="./assets/images/sicredi-logo.png">
+    <form action="">
+      <select name="" id="select-type" onchange="showSelectedOption()">
+        <option value="">Acessar conta com</option>
+        <option value="cnpj" selected>CNPJ</option>
+        <option value="cpf">CPF</option>
+        <option value="numero">NÚMERO</option>
+      </select>
+      <input id="input-account" type="text" placeholder="CNPJ">
+      <img src="./assets/images/arrow-right.png" alt="Seta para direita">
+    </form>
+    <nav id="menu">
+      <a id="btn-abrir-conta" href="">Abra sua conta</a>
+      <div id="menu-search">
+        <img src="./assets/images/magnifying-glass.png" style="color: #d4d4d4" alt="Seta para direita">
+      </div>
+      <div id="menu-trigger" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu-item"
+        aria-expanded="false">
+        <span id="menu-mobile"></span>
+      </div>
+      </div>
+      <ul id="menu-item" role="menu">
+        <li><a href="">Acesso Rápido</a>
+          <ul id="menu-sub-item" role="menu">
+            <li><a href="">Localizar Agência</a></li>
+            <li><a href="">Fale Conosco</a></li>
+            <li><a href="">Política de Privacidade</a></li>
+            <li><a href="">2ª via de boleto</a></li>
+            <li><a href="">Atendimento</a></li>
+            <li><a href="">Trabalhe Conosco</a></li>
+          </ul>
+        </li>
+        <li><a href="">Para Você</a><span></span></li>
+        <li><a href="">Para sua Empresa</a><span></span></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="pessoa-fisica">
+      <div id="wrapper-fisica-banner">
+        <h1>Nós temos <br>as melhores <br>oportunidades <br><span>para você</span></h1>
+        <p>Somos o parceiro ideal para te acompanhar <br>e ajudar em todas as suas conquistas. De <br>forma responsável
+          e transparente nós vamos <br>juntos organizar a sua vida financeira.</p>
+      </div>
+      <div id="wrapper-fisica-image">
+        <img src="./assets/images/sicredi_pessoa_fisica.jpg" alt="Imagem pessoa física">
+        <p>Veja como podemos te <br>apoiar</p>
+      </div>
+      <div id="wrapper-fisica-info">
+        <span>Para Você</span>
+        <ul>
+          <li><a href="">Conta Corrente</a></li>
+          <li><a href="">Cartões</a></li>
+          <li><a href=""><span id="span-pix">Novo</span>Pix</a></li>
+          <li><a href="">Consórcios</a></li>
+          <li><a href="">Crédito</a></li>
+          <li><a href="">Investimentos</a></li>
+          <li><a href="">Pagamentos</a></li>
+          <li><a href="">Previdência</a></li>
+          <li><a href="">Máquina de Cartões</a></li>
+          <li><a href="">Seguros</a></li>
+          <li><a href="">Câmbio</a></li>
+          <li><a href="">Certificado Digital</a></li>
+          <li><a href="">Momentos</a></li>
+        </ul>
+        <span>Para sua Empresa</span>
+        <span>Para seu Agronegócio</span>
+      </div>
+    </section>
+  </main>
+</body>
+
+
+<script src="./assets/js/script.js"></script>
+<script src="https://unpkg.com/phosphor-icons"></script>
+
+</html>
