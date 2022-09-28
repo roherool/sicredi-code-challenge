@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://letmeask-85ab4.firebaseapp.com/">
+  <a href="#">
     <img alt="sicredi" title="sicredi" src="./src/assets/images/logo-sicredi.svg">
   </a>
 </h1>
@@ -28,9 +28,10 @@ O que torna o desafio mais impolgante, provando para si mesmo que o seu conhecim
 ### 🚀 Como executar
 
 - [x] Clone o repositório
-- [x] Não necessita instalar nenhuma dependência
-- [x] Selecione o caminho do arquivo **`meu-caminho/sicredi/src/index.html`**
-- [x]  E cole no seu navegador para acessar o **Sicredi Fake**
+- [x] Instalar as dependências do projeto: **npm install**
+- [x] Para criar a build do projeto use o comando: **npm run build**
+- [x] Para executar o projeto com Webpack: **npm run start** Atenção: **(Não utilizar ainda - versão webpack não suportado)**
+- [x] Para executar o projeto direto no browser: **local-arquivo/desafio-sicredi/src/index.html**
 
 ### 📄 Licença
 

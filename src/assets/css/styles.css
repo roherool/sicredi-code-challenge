@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"); */
 
 /* START GLOBAL STYLES */
 @import url("./global.css");
@@ -15,98 +15,6 @@
 @import url("./footer.css");
 
 /* START RESPONSIVE */
+@import url("./responsive-max-1080.css");
 
-@media (max-width: 1080px) {
-  html {
-    font-size: 93.75%;
-  }
-}
-
-@media (max-width: 720px) {
-  html {
-    font-size: 87.5%;
-  }
-
-  form {
-    display: none;
-  }
-
-  #btn-abrir-conta {
-    display: none;
-  }
-
-  #menu-search {
-    display: none;
-  }
-
-  #menu-trigger:hover {
-    background: transparent;
-  }
-
-  #menu-item {
-    background: var(--green-500);
-    display: block;
-    position: absolute;
-
-    height: 0px;
-    width: 100%;
-    padding: 0;
-
-    top: 5.5rem;
-    right: 0px;
-    z-index: 1000;
-    transition: 0.6s;
-    visibility: hidden;
-    overflow-y: hidden;
-  }
-
-  #menu.active #menu-item {
-    height: calc(100vh - 5.5rem);
-    visibility: visible;
-    overflow-y: auto;
-  }
-
-  #menu-item a {
-    background: none;
-    font-size: 1rem;
-    margin: 0 1rem;
-    padding: 1rem 0.5rem;
-  }
-
-  #menu-item a:hover {
-    background: var(--green-600);
-  }
-
-  #menu-trigger {
-    background: none;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #menu-mobile {
-    color: var(--green-500);
-    border-top: 3px solid;
-    width: 30px;
-  }
-
-  #menu-mobile::after,
-  #menu-mobile::before {
-    height: 3px;
-    width: 30px;
-  }
-
-  #menu.active #menu-mobile {
-    border-top-color: transparent;
-  }
-
-  #menu.active #menu-mobile::after {
-    top: -15px;
-  }
-
-  #pessoa-fisica {
-    grid-auto-columns: auto;
-  }
-}
+@import url("./responsive-max-720.css");

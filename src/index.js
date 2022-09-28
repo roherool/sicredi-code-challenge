@@ -36,7 +36,6 @@ function showSelectedOption() {
   let select = document.getElementById("select-type");
   let option = select.options[select.selectedIndex];
 
-  document.getElementById("input-account").value = option.text;
   document.getElementById("input-account").value = option.value;
 }
 
