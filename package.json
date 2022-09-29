@@ -1,7 +1,7 @@
 {
   "name": "desafio-sicredi",
   "version": "1.0.0",
-  "description": "<h1 align=\"center\">   <a href=\"https://letmeask-85ab4.firebaseapp.com/\">     <img alt=\"sicredi\" title=\"sicredi\" src=\"./src/assets/images/logo-sicredi.svg\">   </a> </h1>",
+  "description": "<h1 align=\"center\">   <a href=\"https://www.sicredi.com.br/home/\">     <img alt=\"sicredi\" title=\"sicredi\" src=\"./src/assets/images/logo-sicredi.svg\">   </a> </h1>",
   "main": "src/index.js",
   "scripts": {
     "build": "webpack --mode production",
